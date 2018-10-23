@@ -17,5 +17,5 @@ def hello_world():
     return "Hello Pek and Monk"
 
 
-if __name__ == "__main__":
-    app.run()
+# if __name__ == "__main__":
+#     app.run()
