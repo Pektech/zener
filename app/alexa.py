@@ -10,4 +10,12 @@ from flask import render_template
 def start_skill():
     output = render_template('welcome')
     ask_session.attributes['last_speech'] = output
+    return question(output).reprompt(ask_session.attributes['last_speech'])
+
+
+
+
+@ask.intent('AMAZON.HelpIntent')
+def help():
+    output = render_template('help')
     return question(output)

@@ -1,2 +1,7 @@
 welcome: "Welcome to Zener Cards. I've shuffled the cards. Say 'Ready' if you want to start or say
           'Explain' to learn about this game"
+
+help: "This is a game designed by Zener to test telepathic and clairvoyance skills.I have a deck of
+        25 cards. The cards are called Star, Cross, Waves, Square and Star.
+        You try to guess which card is next. At the end I will give you a score. Say 'ready' if you
+        want to start or 'Quit' to end"
