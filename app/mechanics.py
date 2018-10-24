@@ -18,3 +18,12 @@ SCORE = 0
 #
 # print(f'You scored {SCORE}')
 
+def final_score(score):
+    if score < 2 :
+        return f"Wow either you are really unlucky or have " \
+               f"some sort of anti-clairvoyance skill. You scored {score} "
+    elif 3 <= score <= 10 :
+        return f" Not a bad score but it's what the average person score. " \
+               f"Your final score was {score}"
+    else:
+        return f"Wow {score} that is a really high score. Maybe you should play the lottery"
